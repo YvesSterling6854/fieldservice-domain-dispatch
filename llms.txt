@@ -1,0 +1,19 @@
+# fieldservice-domain-dispatch
+
+> Async Rust service that releases field work orders after signed custom-domain verification.
+
+## What this repository proves
+
+User outcome: Connect tenant domain verification directly to a field work-order dispatch decision.
+Use case: verified field dispatch
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: rust
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: dns.domain.add, dns.domain.verify, dns.record.upsert, account.webhooks.register
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

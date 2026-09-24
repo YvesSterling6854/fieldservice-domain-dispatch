@@ -1,0 +1,19 @@
+{
+  "order": {
+    "work_order_id": "wo-1842",
+    "customer_domain": "dispatch.acme-field.example",
+    "photos": [
+      {
+        "object_key": "wo-1842/panel-before.jpg",
+        "caption": "Panel before service"
+      }
+    ],
+    "follow_up": {
+      "technician_id": "tech-17",
+      "note": "Confirm breaker label on return visit"
+    },
+    "dispatch_status": "awaiting_domain"
+  },
+  "cname_target": "tenant-gateway.example.net",
+  "ownership_token": "verify-wo-1842"
+}
